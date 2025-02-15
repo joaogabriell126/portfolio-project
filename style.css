@@ -5,6 +5,10 @@
     list-style: none;
     text-decoration: none;
 }
+
+html{
+    scroll-behavior: smooth;
+}
  
 /* Cabeçalho da Página */ 
 .mainHeader{
@@ -40,7 +44,7 @@
 }
 
 /* Página Principal - Apresentação */
-.homeContainer{
+#homeContainer{
     height: 100vh;
     display: flex;
     justify-content: center;
@@ -76,4 +80,131 @@
 
 .homePresentation strong{
     color: #697565;
+}
+
+/* Minhas Linguagens */
+.myLanguages{
+    height: 35vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #1E201E;
+    border-top: 1px solid #ECDFCC;
+    border-bottom: 1px solid #ECDFCC;
+}
+
+.myLanguages h2{
+    color: #ECDFCC;
+    font-size: 32px;
+    margin-bottom: 1.7rem;
+}
+
+.languages{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3rem;
+}
+.languagesBackground{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 6px;
+    
+}
+
+.languagesBackground h3{
+    color: #ECDFCC;
+}
+
+.languagesBackground img{
+    width: 60px;
+}
+
+/* Sobre mim */
+#aboutMeContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 80vh;
+    background-color: #3C3D37;
+}
+
+.aboutMe{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    height: 60vh;
+    width: 75vw;
+}
+.aboutMe h3{
+    color: #ECDFCC;
+    font-size: 32px;
+    margin-bottom: 1.7rem
+}
+
+.aboutMe p{
+    color: #ECDFCC;
+    font-size: 24px;
+    letter-spacing: 2px;
+}
+
+.aboutMe p strong{
+    color: #8a9e84;
+}
+
+/* Contatos */
+#contactContainer{
+    height: 65vh;
+    display: flex;
+    color: #ECDFCC;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #3C3D37;
+    border-top: 1px solid #ECDFCC;
+}
+
+#contactContainer h2{
+    color: #ECDFCC;
+    font-size: 32px;
+    margin-bottom: 2rem;
+}
+
+
+.myContacts{
+    display: flex;
+    height: 25vh;
+    width: 75vw;
+    justify-content: space-between;
+}
+
+.contact{
+    display: flex;;
+    width: 16.5vw;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    cursor: pointer;
+    transition: 0.2s ;
+    color: #ECDFCC;
+}
+
+.contact:hover{
+    transform: scale(1.1);
+}
+
+.contactBackground{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    background-color: #697565;
+    border-radius: 50%;
+    font-size: 20px;
+    margin-bottom: 1rem;
 }

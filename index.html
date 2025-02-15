@@ -1,31 +1,114 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
     <title>Document</title>
 </head>
+
 <body>
     <header class="mainHeader">
         <h2>&lt;GO/&gt;</h2>
         <nav class="headerNavegation">
             <ul class="navegation">
-                <li><a href="#">Início</a></li>
-                <li><a href="#">Sobre mim</a></li>
+                <li><a href="#homeContainer">Início</a></li>
+                <li><a href="#aboutMeContainer">Sobre mim</a></li>
                 <li><a href="#">Projetos</a></li>
-                <li><a href="#">Contato</a></li>
+                <li><a href="#contactContainer">Contato</a></li>
             </ul>
         </nav>
     </header>
 
     <main>
-        <section class="homeContainer">
+        <section id="homeContainer">
             <article class="homePresentation">
                 <h1>Gabriel Oliveira</h1>
                 <p>Desenvolvedor <strong>Front-end</strong></p>
             </article>
         </section>
+
+        <section class="myLanguages">
+            <h2>Habilidades</h2>
+            <article class="languages">
+                <div class="languagesBackground">
+                    <h3>HTML</h3>
+                    <img src="./assets/img/icons8-html.svg" alt="">
+                </div>
+                <div class="languagesBackground">
+                    <h3>CSS3</h3>
+                    <img src="./assets/img/icons8-css.svg" alt="">
+                </div>
+                <div class="languagesBackground">
+                    <h3>JavaScript</h3>
+                    <img src="./assets/img/icons8-javascript.svg" alt="">
+                </div>
+                <div class="languagesBackground">
+                    <h3>ReactJS</h3>
+                    <img src="./assets/img/icons8-react.svg" alt="">
+                </div>
+                <div class="languagesBackground">
+                    <h3>SASS</h3>
+                    <img src="./assets/img/icons8-atrevido-avatar.svg" alt="">
+                </div>
+                <div class="languagesBackground">
+                    <h3>Git</h3>
+                    <img src="./assets/img/icons8-git.svg" alt="">
+                </div>
+                <div class="languagesBackground">
+                    <h3>Github</h3>
+                    <img src="./assets/img/icons8-github.svg" alt="">
+                </div>
+                <div class="languagesBackground">
+                    <h3>VS Code</h3>
+                    <img src="./assets/img/icons8-visual-studio-code.svg" alt="">
+                </div>
+            </article>
+        </section>
+
+        <section id="aboutMeContainer">
+            <article class="aboutMe">
+                <h3>Sobre Mim</h3>
+                <p>Sou um desenvolvedor Front-end apaixonado por criar interfaces modernas e responsivas. Tenho experiência com <strong>HTML, CSS e SASS</strong>, trabalhando em projetos que unem estética e funcionalidade. Atualmente, sou estudante de <strong>Engenharia de Software no IBMEC-RJ</strong> e faço parte da escola técnica Vai na Web, onde aprofundo meus conhecimentos no desenvolvimento <strong>Full Stack</strong>. Estou sempre em busca de novos desafios e inovação no mundo da tecnologia.</p>
+            </article>
+        </section>
+
+        <section id="contactContainer">
+            <h2>Contatos</h2>
+            <article class="myContacts">
+                <a href="mailto:joaogabriell.code@gmail.com" target="_blank" class="contact">
+                    <div class="contactBackground">
+                        <span class="fa-solid fa-envelope"></span>
+                    </div>
+                    <h3>E-mail</h3>
+                    <p>joaogabriell.code@gmail.com</p>
+                </a>
+                <a href="https://wa.me/21979717789" target="_blank" class="contact">
+                    <div class="contactBackground">
+                        <span class="fa-solid fa-phone"></span>
+                    </div>
+                    <h3>Telefone</h3>
+                    <p>(21) 97971-7789</p>
+                </a>
+                <a href="https://www.linkedin.com/in/joão-gabriel-teodosio-de-oliveira-lima-13854734a" target="_blank" class="contact">
+                    <div class="contactBackground">
+                        <span class="fa-brands fa-linkedin-in"></span>
+                    </div>
+                    <h3>Linkedin</h3>
+                    <p>Gabriel Oliveira</p>
+                </a>
+                <a href="https://github.com/joaogabriell126" target="_blank" class="contact">
+                    <div class="contactBackground">
+                        <span class="fa-brands fa-github"></span>
+                    </div>
+                    <h3>Github</h3>
+                    <p>@joaogabriell126</p>
+                </a>
+            </article>
+        </section>
     </main>
 </body>
+
 </html>
