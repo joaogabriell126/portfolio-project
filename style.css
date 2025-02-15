@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+ 
+/* Cabeçalho da Página */ 
+.mainHeader{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    right: 0;
+    left: 0;
+    top: 0;
+    background-color: transparent;
+    backdrop-filter: blur(20px);
+    box-shadow: #ECDFCC 0px 0px 7px;
+    height: 15vh;
+    padding: 0rem 5rem;
+}
+
+.mainHeader h2{
+    color: #ECDFCC;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.navegation{
+    display: flex;
+    gap: 4rem;
+}
+
+.navegation li a{
+    font-size: 19px;
+    font-weight: 600;
+    color: #ECDFCC;
+}
+
+/* Página Principal - Apresentação */
+.homeContainer{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("./assets/img/natural-disaster-concept-with-flood.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.homePresentation{
+    height: 40vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #1e201ed0;
+}
+
+.homePresentation h1{
+    font-size: 90px;
+    color: #ECDFCC;
+    font-weight: 700;
+}
+
+.homePresentation p{
+    font-size: 30px;
+    font-weight: 500;
+    color: #ECDFCC;
+}
+
+.homePresentation strong{
+    color: #697565;
+}
